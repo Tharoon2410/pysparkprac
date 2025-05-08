@@ -26,3 +26,9 @@ df.show(truncate=False)
 
 filter_df = df.filter(char_length("content") > 15)
 filter_df.show()
+
+df.createOrReplaceTempView("tweets")
+spark.sql("""SELECT
+    tweet_id
+FROM Tweets
+WHERE CHAR_LENGTH(content) > 15""").show()
