@@ -1,0 +1,12 @@
+<customers>
+  <customer>
+    <customer_id>C001</customer_id>
+    <customer_name>Alice</customer_name>
+    <city>Mumbai</city>
+  </customer>
+  <customer>
+    <customer_id>C002</customer_id>
+    <customer_name>Bob</customer_name>
+    <city>Delhi</city>
+  </customer>
+</customers>
